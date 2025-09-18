@@ -1,0 +1,9 @@
+@-moz-document url-prefix("chrome:") {
+	#zen-tabbox-wrapper {
+		#sidebar-box {
+			:root[zen-right-side='true'] & {
+				margin-left: 0 !important;
+			}
+		}
+	}
+}
